@@ -1,0 +1,12 @@
+background_b: 255
+background_g: 86
+background_r: 69
+rosdistro: 'kinetic
+
+  '
+roslaunch:
+  uris: {host_me131_virtualbox__45565: 'http://me131-VirtualBox:45565/'}
+rosversion: '1.12.7
+
+  '
+run_id: 5ad6e518-d256-11e7-9b08-0800272b0723

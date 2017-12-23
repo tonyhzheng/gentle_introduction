@@ -1,0 +1,2 @@
+packagename
+-DCATKIN_DEVEL_PREFIX=/home/me131/BARC/test_workspace/devel -DCMAKE_INSTALL_PREFIX=/home/me131/BARC/test_workspace/install -G Unix Makefiles

@@ -1,0 +1,36 @@
+<launch>
+
+	<node
+		pkg = "turtlesim"
+		type = "turtlesim_node"
+		name = "turtlesim1"
+		respawn = "true"
+	/>
+
+	<node
+		pkg = "turtlesim"
+		type = "turtle_teleop_key"
+		name = "teleop_key"
+		required = "true"
+		launch-prefix = "xterm -e"
+	/>
+
+	<node
+		pkg = "turtlesim"
+		type = "turtlesim_node"
+		name = "turtlesim2"
+		respawn = "true"
+	>
+	<remap
+		from="turtle1/cmd_vel"
+		to="turtle1/cmd_vel_reversed"
+	/>
+	</node>
+
+<node
+		pkg = "packagename"
+		type = "reverse_vel_cmd_executable"
+		name = "reverse_velocity"
+	/>
+
+</launch>

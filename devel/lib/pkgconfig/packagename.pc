@@ -1,0 +1,8 @@
+prefix=/home/me131/BARC/test_workspace/devel
+
+Name: packagename
+Description: Description of packagename
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/me131/BARC/test_workspace/devel/lib 
+Requires: 
